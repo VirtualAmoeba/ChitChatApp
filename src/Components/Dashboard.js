@@ -7,10 +7,10 @@ export default function Dashboard(){
                 <div className = "dropdown">
                     <button className= "dropbtn">Menu</button>
                     <div class="dropdown-content">
-                         <a href="/">Home</a>
-                         <a href="#">Chats</a>
-                         <a href="/contacts">Contacts</a>
-                         <a href="#">Log Out</a>
+                        <a href="/">Home</a>
+                        <a href="#">Chats</a>
+                        <a href="/contacts">Contacts</a>
+                        <a href="#">Log Out</a>
                     </div>
                 </div>
             </div>
