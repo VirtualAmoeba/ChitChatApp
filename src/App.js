@@ -10,6 +10,16 @@ import Contacts from '../src/Components/Contacts'
 import Landing from '../src/Components/Landing'
 import NotFound from '../src/Components/NotFound'
 
+const firebaseConfig = {
+  apiKey: "AIzaSyDkdNmP09gYFxUd6oUwUj1sRn5bd3nGRWk",
+  authDomain: "message-app-2e658.firebaseapp.com",
+  projectId: "message-app-2e658",
+  storageBucket: "message-app-2e658.appspot.com",
+  messagingSenderId: "1023615114414",
+  appId: "1:1023615114414:web:1dc61051025b706ab0e13f",
+  measurementId: "G-ZXT28H0B6F"
+};
+
 export default function App () {
   return (
     <Routes>
