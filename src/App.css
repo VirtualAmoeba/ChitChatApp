@@ -1,0 +1,272 @@
+/* Header dashboard */
+.header{
+    font-family: "Mochiy Pop One";
+    -webkit-text-stroke:0.1vw rgb(232, 235, 240);
+    -webkit-text-fill-color: rgb(20, 220, 110);
+    position: relative;
+    top: 10px;
+    font-size: 35pt;
+
+}
+
+
+
+
+
+/* Dashboard  */ 
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+    
+}
+.myProfile{
+    border-radius: 10%;
+}
+.newmessbtn{
+    background-color: #89c4b0;
+    color: rgb(245, 225, 225);
+    padding: 10px;
+    font-size: 13px;
+    border: none;
+    position:relative;
+    opacity:70%;
+    font-family: "Mochiy Pop One";
+    border-radius: 50%;
+    position: relative;
+    top: 30px;
+    display: flex;
+    
+}
+.footerbtn{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom:280px
+}
+.ContainerDash{
+    background-image: -webkit-linear-gradient(rgb(42, 200, 240),blue);
+
+
+}
+
+.dash {
+    height: 80px;
+    font-size: 20pt;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.cont{
+    height:150px;
+    width:1820px;
+    position: relative;
+    
+    
+}
+.mess{
+   
+    height:830px;
+    font-family: "Mochiy Pop One";
+    -webkit-text-fill-color: rgb(9, 187, 113);
+    -webkit-text-stroke:0.06vw rgb(5, 31, 116);
+    position: relative;
+    top:20px;
+    font-size: 20pt;
+ 
+}
+.latestmess{
+    border:1px black solid;
+    height: 500px;
+}
+
+
+/* Contacts Dashbaord */ 
+.primarycont{
+    font-family: "Mochiy Pop One";
+    font-size: 9pt;
+}
+.favcont{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top:29px;
+    shape-outside: circle(50%);
+
+}
+#cir1, #cir2, #cir3, #cir4, #cir5, #cir6 , #cir7, #cir8{
+    height: 100px;
+    width:110px;
+    background-color: rgb(4, 26, 26);
+    border-radius: 50%;
+    opacity: 30%;
+    font-family:"Mochiy Pop One";
+    text-align: center;
+   
+    
+}
+#cir1, #cir2, #cir5, #cir7{
+    background-image: url("./Components/profileimages/Unknown-women.jpg");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: 10%;
+
+   
+    
+
+}
+#cir3, #cir4 , #cir6 , #cir8{
+    background-image: url("./Components/profileimages/Unknown.jpg");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: 10%;
+
+}
+
+
+#cir1:hover{
+    background-color: burlywood;
+    opacity: 60%;
+}
+#cir2:hover{
+    background-color: cyan;
+    opacity: 60%;
+}
+#cir3:hover{
+    background-color: burlywood;
+    opacity: 60%;
+}
+#cir4:hover{
+    background-color: cyan;
+    opacity: 60%;
+}
+#cir5:hover{
+    background-color: burlywood;
+    opacity: 60%;
+}
+#cir6:hover{
+    background-color: cyan;
+    opacity: 60%;
+}
+#cir7:hover{
+    background-color: burlywood;
+    opacity: 60%;
+}
+#cir8:hover{
+    background-color: cyan;
+    opacity: 60%;
+}
+
+/* drop down button dashboard */
+.dropbtn {
+    background-color: #3cf8b9;
+    color: white;
+    padding: 16px;
+    font-size: 30px;
+    border: none;
+    position:relative;
+    opacity:70%;
+    font-family: "Mochiy Pop One";
+
+
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 190px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+  /*Contacts Page css*/
+.mainheader{
+    display: flex;
+    border: 1px black solid;
+}
+.containercontacts{
+    background-image: -webkit-linear-gradient(rgb(42, 200, 240),blue);
+    height:2000px;
+}
+.headercontacts{
+    font-family:"Mochiy Pop One";
+    position: relative;
+    top:35px;
+    font-size: 15pt;
+}
+
+.contpic{
+    position: relative;
+    top:80px;
+    right:270px
+
+
+}
+
+.createcontact{
+    background-color: darkcyan;
+    border:none;
+    padding:15px 39px;
+    display: inline-block;
+    font-family: "Mochiy Pop One";
+    font-size:11pt;
+    position: relative;
+    top:30px;
+    left:65px;
+    border-radius:50%
+
+}
+.gridcon{
+    
+    display:grid;
+    grid-template-columns:  0.5fr 3fr;
+    height: 700px;
+}
+#sideMenu{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+    height:700px;
+    align-items: center;
+}
+#sideMenu:hover{
+    text-decoration: chartreuse;
+}
+
+#mainHeader{
+    font-family: "Mochiy Pop One";
+    position: relative;
+    left:50px
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* SIGNUP PAGE CSS */
+
