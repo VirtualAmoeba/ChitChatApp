@@ -8,11 +8,6 @@
     font-size: 35pt;
 
 }
-
-
-
-
-
 /* Dashboard  */ 
 
 *{
@@ -22,8 +17,10 @@
     
     
 }
-.myProfile{
+#myProfile{
     border-radius: 10%;
+    width:250px;
+    height: 280px;
 }
 .newmessbtn{
     background-color: #89c4b0;
@@ -268,5 +265,13 @@
     justify-content: space-around;
 }
 
+.defaulttext{
+    font-family: "Mochiy Pop One";
+
+}
+/*IMG */
+
+
 /* SIGNUP PAGE CSS */
+
 

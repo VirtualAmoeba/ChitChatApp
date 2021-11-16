@@ -2,30 +2,8 @@ import React from "react"
 import App from "../App"
 import womantext from "../images/pexels-andrea-piacquadio-3769022.png"
 import mantext from "../images/pexels-cottonbro-3206079.png"
-
-
-
-/*class SignUp extends React.Component(){
-
-    constructor(props){
-        super(props)
-    }
-    render(){
-        return( 
-            <div>
-            <form>
-                <input type="text" className="form-control" aria-aria-describedby="sizing=addon1" placeholder = "Enter Username"></input>
-                <input type="text" className="form-control" aria-aria-describedby="sizing=addon1" placeholder = "Email"></input>
-                <input type="text" className="form-control" aria-aria-describedby="sizing=addon1" placeholder = "Enter Password"></input>
-                <input type="text" className="form-control" aria-aria-describedby="sizing=addon1" placeholder = " Confirm Password"></input>
-                <input></input>
-            </form>
-            </div>
-        )
-    }
-} 
-export default SignUp */
-
+import firebase from "../Components/firebase"
+import auth from "../Components/firebase"
 
 export default function SignUp(){
     return( 
@@ -38,7 +16,9 @@ export default function SignUp(){
             
             <div className = "signUpInput"> 
                 <p className = "signup">Sign Up</p>
-                <input placeholder = "Enter Username" type="text"></input>
+                <input placeholder = "First Name"></input>
+                <input placeholder = "Last Name"></input>
+                <input placeholder = "Enter Username"></input>
                 <input placeholder = "Email"></input>
                 <input placeholder = "Enter Password"></input>
                 <input placeholder = " Confirm Password"></input>
@@ -57,3 +37,6 @@ export default function SignUp(){
 
     )
 }
+
+
+

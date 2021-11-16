@@ -12,6 +12,8 @@ import NotFound from '../src/Components/NotFound'
 import Dashboard from "../src/Components/Dashboard"
 import SignUp from "./Components/SignUp";
 import "./CSS_Pages/signUp.css"
+import firebase from "./Components/firebase"
+
 
 
 export default function App () {
@@ -23,7 +25,6 @@ export default function App () {
       <Route path="notfound" element={<NotFound />} />
       <Route path="dashboard" element={<Dashboard />} /> 
       <Route path ="signup" element = {<SignUp/>} />
-
     </Routes>
   )
 }

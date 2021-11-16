@@ -5,13 +5,10 @@
 
 .signUpForm{
     background-image: -webkit-linear-gradient(rgb(42, 200, 240),blue);
-    height: 1000px;
+    height: 1400px;
   
 }
 .inputInfo{
-
-    
-
 
     
 }
@@ -23,6 +20,8 @@
     width:1678px;
     height:1000px;
     line-height: 90px;
+    position: relative;
+    left:230px
     
     
 }
@@ -72,15 +71,12 @@ button:hover{
     -webkit-text-stroke:0.01vw rgb(232, 235, 240);
     -webkit-text-fill-color: rgb(20, 220, 110);
 }
-img{
+.img{
     position: relative;
     bottom:900px;
     right:100px;
     width:700px;
-    height:800px;
+    height:900px;
     opacity: 20%;
-
-}
-.img1{
 
 }
