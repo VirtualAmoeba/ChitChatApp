@@ -25,7 +25,7 @@ export default function SignUp(){
             
 
                 <div id = "buttons">
-                    <button id = "submit">Submit</button>
+                    <button id = "submit" >Submit</button>
                     <button id = "signin"> Sign-In</button>
                 </div>
                 
