@@ -36,16 +36,13 @@ export default function Dashboard(){
                     
                 </div>
                 <div className = "myProfile">
-                    <img src = {pic} className = "myProfile"></img>
-                    <div>
+                    <img src = {pic} id = "myProfile"></img>
+                    <div className= "defaulttext">
                         <p> My Username: Armoni81</p>
                         <p>My Email: atigner81@gmail.com</p>
                         <p>My Number: 6789991212</p>
                         <p>About me : </p>
                     </div>
-                    
-
-
                 </div>
                 <div className= "mess">
                     <div>
