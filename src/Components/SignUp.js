@@ -25,7 +25,7 @@ export default function SignUp(){
             
 
                 <div id = "buttons">
-                    <button id = "submit">Submit</button>
+                    <button id = "submit" >Submit</button>
                     <button id = "signin"> Sign-In</button>
                 </div>
                 
@@ -36,45 +36,3 @@ export default function SignUp(){
 
     )
 }
-
-
-
-
-
-class SignUp extends React.Component(){
-
-    constructor(props){
-        super(props)
-    }
-
-
-    render(){
-        return( 
-            <div>
-            <form>
-                <input type="text" className="form-control" aria-aria-describedby="sizing=addon1" placeholder = "Enter Username"></input>
-                <input type="text" className="form-control" aria-aria-describedby="sizing=addon1" placeholder = "Email"></input>
-                <input type="text" className="form-control" aria-aria-describedby="sizing=addon1" placeholder = "Enter Password"></input>
-                <input type="text" className="form-control" aria-aria-describedby="sizing=addon1" placeholder = " Confirm Password"></input>
-                <input></input>
-            </form>
-            </div>
-        )
-    }
-}
-
-export default SignUp
-
-export default function SignUp(){
-    return( 
-        <form>
-            <input placeholder = "Enter Username"></input>
-            <input placeholder = "Email"></input>
-            <input placeholder = "Enter Password"></input>
-            <input placeholder = " Confirm Password"></input>
-            <input></input>
-        </form>
-
-    )
-}
-
