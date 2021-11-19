@@ -51,4 +51,7 @@ export class Contacts extends React.Component {
 //       this._getContacts(querySnapshot)
 //     })
 //   }
+
+//   }
  
+

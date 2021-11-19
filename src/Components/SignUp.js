@@ -29,10 +29,9 @@ export default function SignUp(){
                     <button id = "signin"> Sign-In</button>
                 </div>
                 
-                   
             </div> 
             <img src = {womantext} alt = "womantext" className = "img"/>
-         </div>
+        </div>
         </form>
 
     )
